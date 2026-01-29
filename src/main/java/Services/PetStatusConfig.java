@@ -45,4 +45,10 @@ public class PetStatusConfig {
             }
         }
     }
+
+    public static void loadStatus(Pet pet, double deltaTime) {
+        for (double i = 0; i < deltaTime; i++) {
+            updatePetStatus(pet);
+        }
+    }
 }

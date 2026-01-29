@@ -38,9 +38,9 @@ Este documento descreve o roteiro de implementação para o jogo Tamagotchi mono
     - [ ] Converter `Delta` em segundos/minutos.
     - [ ] Loop de simulação: Aplicar a redução de status baseada no tempo que passou.
     - [ ] *Tratamento:* Se o tempo for excessivo, matar o pet automaticamente.
-- [ ] **Game Loop (Tempo Real)**
-    - [ ] Implementar `Timeline` (JavaFX) ou `AnimationTimer`.
-    - [ ] Configurar o "tick" (ex: a cada 1s executa a lógica de redução de status).
+- [X] **Game Loop (Tempo Real)**
+    - [X] Implementar `Timeline` (JavaFX) ou `AnimationTimer`.
+    - [X] Configurar o "tick" (ex: a cada 1s executa a lógica de redução de status).
 
 ## 🎨 Fase 3: Interface Gráfica (Views & Controllers)
 *Foco: Implementação das telas solicitadas.*

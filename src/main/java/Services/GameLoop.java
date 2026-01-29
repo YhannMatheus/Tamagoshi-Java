@@ -33,7 +33,7 @@ public class GameLoop implements Runnable {
         // Variáveis auxiliares para medir Performance
         long timer = 0;
         int frames = 0;
-
+        
         while (isRunning) {
             long now = System.nanoTime();
             long updateLength = now - lastLoopTime;
@@ -73,4 +73,8 @@ public class GameLoop implements Runnable {
     private void render() {
     }
     
+    public void loadGame(double deltaTime) {
+        PetStatusConfig.loadStatus(pet, deltaTime);
+        
+    }
 }
